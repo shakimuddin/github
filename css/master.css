@@ -1,0 +1,158 @@
+header {
+  background-color: #5858588a;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+section{
+  background:#414141  url(../images/moon.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-blend-mode:unset;
+
+}
+nav {}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav ul li {}
+
+nav ul li a {
+
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+
+
+
+}
+
+nav ul li a img {
+  width: 100px;
+}
+
+nav ul li a:hover {
+  color: #b0d015;
+
+}
+
+.flex {
+  display: flex;
+  height:100vh;
+
+align-items: center;
+}
+
+
+.content {
+  font-size: 30px;
+  max-width: 50%;
+  padding: 15px;
+  flex: 0 0 50%;
+
+}
+
+.form {
+  font-size: 30px;
+  max-width: 50%;
+  padding: 15px;
+  flex: 0 0 50%;
+}
+
+.content h1{
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.content span{
+  color:#1ed760;
+}
+.content p{
+  color: #fff;
+  font-size:20px;
+  margin: 8px 0;
+
+}
+.content ul{
+      margin: 10px 0;
+}
+.content ul li{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.content a{
+  background:#b0d015;
+color: #fff;
+text-transform: uppercase;
+display: inline-block;
+padding: 12px 30px;
+border-radius: 30px;
+box-shadow: 0 6px 0px #323232;
+}
+.content a:hover{
+  box-shadow: 0 0 0 #323232;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.form-content{
+  background:#88a216c2;
+  padding:15px;
+  max-width:400px;
+  margin-left: auto;
+  box-shadow: 0 6px 0px #02020252;
+  padding: 35px 20px;
+}
+.form-content h2{
+  color: #fff;
+  font-size: 30px;
+  text-transform: capitalize;
+
+}
+.form-content p{
+  color: #fff;
+  font-size: 30px;
+}
+.form-content form{
+  margin-top: 20px;
+
+}
+.form-content form input{
+  width: 100%;
+  border:0;
+  padding:10px 15px;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 5px #696969;
+
+
+}
+.form-content form input[type=submit]{
+  background: #B0D015;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  border-radius: 30px;
+  box-shadow: 0 6px 0px #323232;
+  cursor: pointer;
+  color: #fff;
+
+}
+.form-content form input[type=submit]:hover{
+  box-shadow: 0 0 0 #0d7131;
+  color: #fff;
+  transition: all 0.4s ease;
+}
